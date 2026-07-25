@@ -8,7 +8,7 @@ func main() {
 	var city string
 	city = "Colombo"
 
-	var country = "sangam"
+	var country = "Sri Lanka" // type inference, compiler infers the type of the variable based on the value assigned
 
 	// := is a short declaration operator, it can be used to declare and initialize a variable in one line
 
