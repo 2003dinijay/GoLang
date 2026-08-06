@@ -14,3 +14,15 @@ func main(){
 	}
 	fmt.Println(sum)
 }
+
+// The init and post statements are optional.
+// for is go s while
+
+
+func main(){
+	sum:=1
+	for; sum<1000;{
+		sum += sum
+	}
+	fmt.Println(sum)
+}
