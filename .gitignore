@@ -1,1 +1,29 @@
+# OS files
+.DS_Store
+
+# Temporary folders
 tmp/
+
+# Go build artifacts and binaries
+bin/
+dist/
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+coverage.out
+
+# Go workspace files
+go.work
+go.work.sum
+
+# Local environment files
+.env
+.env.*
+
+# IDE/editor
+.vscode/
+.idea/
